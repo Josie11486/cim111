@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>About me</title>
+
+    note: meta stuff is all structural. They are used by browsers/search enginges
+    but are not visibile on the site
+
+    <meta name="author" content="Josie Argento"
+    <meta name="keywords" content="resume, education, work">
+    <meta name="description" content="This website is about me.">
+
+
+  </head>
+
+  <body>
+
+    <header>
+    <h1>Josie Argento</h1>
+
+      <nav>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+
+          </ul>
+
+      </nav>
+
+
+    </header>
+    <main></main>
+    <footer></footer>
+
+  </body>
+
+
+
+  </html>
