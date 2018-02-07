@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>About me</title>
+
+    <meta name="author" content="Josie Argento"
+    <meta name="keywords" content="resume, education, work">
+    <meta name="description" content="This website is about me.">
+
+
+      <style>
+        /*This is a CSS comment*/
+
+        body{
+              background-color: pink;
+              color: white;
+
+            }
+
+        a{
+
+          color: rgb(255,0,0);
+          text-decoration: none;
+
+        }
+
+
+      h1{
+        color: rgb(255,0,0);
+      }
+
+  </head>
+      </style>
+
+  <body>
+
+    <header>
+    <h1>Josie Argento</h1>
+
+      <nav>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+
+          </ul>
+
+      </nav>
+
+
+    </header>
+    <main></main>
+    <footer></footer>
+
+  </body>
+
+
+
+  </html>
