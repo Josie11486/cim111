@@ -1,0 +1,95 @@
+
+
+@import @import url('https://fonts.googleapis.com/css?family=BioRhyme+Expanded|Kavivanar');
+
+
+nav{
+  width: 300px;
+  margin: 0 auto;
+}
+
+nav ul{
+  margin left: -30px;
+}
+
+header {
+  background-color: white;
+  width: 800px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: pink;
+  width: 800px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: white;
+  width: 780px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+footer {
+  background-color: green;
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+section {
+  margin-bottom: 100px;
+
+}
+
+h1 {
+  font-family: 'Kavivanar', cursive;
+}
+
+
+This period thing is a class. it can be used multiple times to create a rule.
+ the hash tag thing is for ID's. it can be used only once.
+
+.work {
+  margin-bottom: 50px;
+  width: 400px;
+  display: inline-block;
+  padding: 10px;
+  background-color: green;
+}
+
+.chicago {
+  color: green;
+  font-weight: bolder;
+}
+
+<!-- comment: you need to classify different sections as sections and div tags to format them -->
+
+table, th, td {
+  border: 1px solid black;
+border-collapse: collapse;
+}
+
+th, td {
+padding: 5px;
+}
+
+p {
+line-height: 20px;
+}
+
+#centerText {
+  text-align: center;
+  color: green;
+}
+
+#moveup{
+  margin-top: -50px;
+}
+<!-- comment: this is for like if something does not look right find the other moveup tag. negative top margin shifts things up -->

@@ -54,6 +54,26 @@
     <main></main>
     <footer></footer>
 
+    This period thing is a class. it can be used multiple times to create a rule.
+     the hash tag thing is for ID's. it can be used only once.
+
+     Thesed r copy pasted from the practice resume so they wont work in here.
+
+     .work {
+       margin-bottom: 50px;
+       width: 400px;
+       display: inline-block;
+       padding: 10px;
+       background-color: green;
+     }
+
+     #centerText {
+       text-align: center;
+       color: green;
+     }
+
+
+
   </body>
 
 
