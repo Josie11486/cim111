@@ -63,11 +63,27 @@
 
   a:link {
     color: grey;
+    text-decoration: none;
 }
 
-/* visited link */
+nav ul li a:hover{
+  background-color: orange;
+  color: white;
+}
+
+nav a:hover{
+  background-color: orange;
+  color: white;
+}
+
 a:visited {
     color: grey;
+    text-decoration: none;
+  }
+
+  li {
+    color: grey;
+  }
 
 
 
@@ -83,11 +99,17 @@ a:visited {
     background-color: green;
   }
 
-  .centerimage {
+#centerimage {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 15px;
 }
+
+#center {
+  text-align: center;
+}
+
 
   .font {
   font-family: 'Open+Sans+Condensed', arial;
@@ -108,15 +130,6 @@ a:visited {
   line-height: 20px;
   }
 
-  .center {
-    text-align: center;
-  }
-
-  #links {
-    color: hotpink;
-    text-decoration: none;
-  }
-
   .links {
     color: hotpink;
     text-decoration: none;
@@ -135,7 +148,7 @@ a:visited {
 
     <header>
 
-    <h1 class="center">Josephine Argento</h1>
+    <h1 id="center">Josephine Argento</h1>
 
     <nav>
         <ul>
@@ -150,7 +163,7 @@ a:visited {
 
     <main>
 
-        <img src="images/Josie.jpg" width="255" class="centerimage">
+        <img src="images/Josie.jpg" width="255" id="centerimage">
 
         <h1>About Me</h1>
 
