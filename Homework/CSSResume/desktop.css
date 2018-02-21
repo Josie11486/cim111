@@ -1,3 +1,121 @@
-  <link rel="stylesheet" href="desktop.css"
+  @import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300');
 
-  paste that into the index.html file in the head section and then put the css in heeeere
+    nav{
+      width: 300px;
+      margin: 0 auto;
+      padding: 5px;
+    }
+
+    header {
+      background-color: white;
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    body {
+      background-color: lightblue;
+      width: 800px;
+      margin: 0 auto;
+      font-family: Open Sans Condensed;
+    }
+
+    main {
+      background-color: white;
+      width: 800px;
+    }
+
+    footer {
+      background-color: grey;
+      width: 780px;
+      margin: 0 auto;
+      color: white;
+      padding: 10px;
+    }
+
+    p{
+      margin: 10px;
+    }
+
+    a:link {
+      color: black;
+      text-decoration: none;
+  }
+
+  nav ul li a:hover{
+    background-color: orange;
+    color: white;
+  }
+
+  nav a:hover{
+    background-color: orange;
+    color: white;
+  }
+
+  a:visited {
+      color: black;
+      text-decoration: none;
+    }
+
+    li {
+      color: black;
+    }
+
+    table{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    th, td {
+    padding: 10px;
+    }
+
+  #centerimage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 15px;
+  }
+
+  #center {
+    text-align: center;
+  }
+
+    .work1 {
+      margin-bottom: -5px;
+      margin-top: -10px;
+      width: 500px;
+      display: inline-block;
+      padding: 10px;
+    }
+
+    .res2{
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 30px;
+    }
+
+    .res4{
+      margin-top: 10px;
+      margin-bottom: 0px;
+      font-size: 20px;
+    }
+
+    .letter{
+      letter-spacing: 1px;
+      font-family: 'Anton', arial;
+      color: white;
+      background-color: grey;
+      padding: 5px;
+      font-size: 35px;
+    }
+
+    .random{
+      margin: 20px;
+    }

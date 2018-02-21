@@ -3,144 +3,16 @@
 <html>
 
   <head>
-    <title>Resume</title>
 
-    <meta name="author" content="Josie Argento"
+    <link rel="stylesheet" href="desktop.css">
+
+    <title>
+      Resume
+    </title>
+
+    <meta name="author" content="Josie Argento">
     <meta name="keywords" content="resume, education, work">
     <meta name="description" content="Josephine Argento's resume.">
-
-
-<style>
-
-@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300');
-
-
-  nav{
-    width: 300px;
-    margin: 0 auto;
-  }
-
-  header {
-    background-color: white;
-    width: 800px;
-    margin: 0 auto;
-
-  }
-
-  body {
-    background-color: lightblue;
-    width: 800px;
-    margin: 0 auto;
-    font-family: Open Sans Condensed;
-  }
-
-  main {
-    background-color: white;
-    width: 800px;
-    margin: 0 auto;
-  }
-
-  footer {
-    background-color: grey;
-    width: 800px;
-    margin: 0 auto;
-    color: white;
-    padding: 10px;
-  }
-
-
-  section {
-    margin-bottom: 100px;
-
-  }
-
-  h1 {
-    font-family: 'Anton', arial;
-    color: white;
-    background-color: grey;
-    padding: 5px;
-  }
-
-  a:link {
-    color: grey;
-    text-decoration: none;
-}
-
-nav ul li a:hover{
-  background-color: orange;
-  color: white;
-}
-
-nav a:hover{
-  background-color: orange;
-  color: white;
-}
-
-a:visited {
-    color: grey;
-    text-decoration: none;
-  }
-
-  li {
-    color: grey;
-  }
-
-
-
-
-  This period thing is a class. it can be used multiple times to create a rule.
-   the hash tag thing is for ID's. it can be used only once.
-
-  .work {
-    margin-bottom: 50px;
-    width: 400px;
-    display: inline-block;
-    padding: 10px;
-    background-color: green;
-  }
-
-#centerimage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-}
-
-#center {
-  text-align: center;
-}
-
-
-  .font {
-  font-family: 'Open+Sans+Condensed', arial;
-  }
-
-  <!-- comment: you need to classify different sections as sections and div tags to format them -->
-
-  table, th, td {
-    border: 1px solid black;
-  border-collapse: collapse;
-  }xs
-
-  th, td {
-  padding: 5px;
-  }
-
-  p {
-  line-height: 20px;
-  }
-
-  .links {
-    color: hotpink;
-    text-decoration: none;
-  }
-
-    <span class="links">Chicago, Illinois</span>
-
-
-  <!-- comment: this is for like if something does not look right find the other moveup tag. negative top margin shifts things up -->
-</style>
-
 
   </head>
 
@@ -148,7 +20,7 @@ a:visited {
 
     <header>
 
-    <h1 id="center">Josephine Argento</h1>
+    <h1 id="center" class="letter">Josephine Argento</h1>
 
     <nav>
         <ul>
@@ -165,9 +37,10 @@ a:visited {
 
         <img src="images/Josie.jpg" width="255" id="centerimage">
 
-        <h1>About Me</h1>
+        <h1 class="letter">About Me</h1>
 
-        <p>I am originally from Chicago, Illinois but I am currently studying
+        <p>
+          I am originally from Chicago, Illinois but I am currently studying
           communication and media management at University of Miami. In addition to my job experience,
           I am a member of Orange Umbrella, Univeristy of Miami's student
           consultnecy for marketing and public relations. We advise businesses
@@ -175,43 +48,46 @@ a:visited {
           media. This summer I would like have a paid internship where I can get
           project based experience in media and marketing. I am interested in the
           business and creative side of the industry, so ideally I would like to
-          find a position that includes both. </p>
+          find a position that includes both.
+        </p>
           <nav><a href="https://orangeumbrellamiami.com/">Check out the Orange Umbrella website here!</a></nav>
 
 
-    <h1>Work Experience</h1>
+    <h1 class="letter">Work  Experience</h1>
 
-    <section>
-<div class="work">
-    <h2>Cumulus Media</h2>
-    <b><i>Promotions Intern</b></i><br>
-- Represented four Chicago radio stations: WLUP, WKQX, WLS-AM and WLS-FM<br>
-- Worked promotional events and contributed to marketing campaigns<br>
-- Spoke with listeners about prize fulfillment<br>
-- Shadowed sales and social media marketing teams<br><br>
-</div>
+<section class="random">
+  <div class="work1">
+    <h2 class="res2">Cumulus Media</h2>
+    <h4 class="res4">Promotions Intern</h4>
+      <ul>
+        <li>Represented four Chicago radio stations: WLUP, WKQX, WLS-AM and WLS-FM</li>
+        <li>Worked promotional events and contributed to marketing campaigns</li>
+        <li>Spoke with listeners about prize fulfillment</li>
+        <li>Shadowed sales and social media marketing teams</li>
+      </ul>
+    </div>
 
-<div class="work" id="moveup">
-<h2>CCC Information Services</h2>
-<b><i>Customer Relations Intern</i></b><br>
-- Called leads and informed them about CCC’s estimating software<br>
-- Entered and organized customer data in MS Office, MS Excel, and Salesforce<br>
-</div>
+  <div class="work1">
+    <h2 class="res2">CCC Information Services</h2>
+    <h4 class="res4">Customer Relations Intern</h4>
+      <ul>
+        <li>Called leads and informed them about CCC’s estimating softwareM</li>
+        <li>Entered and organized customer data in MS Office, MS Excel, and Salesforce</li>
+      </ul>
+  </div>
 
-<div class="work">
-<h2>Country Financial Insurance</h2>
-<b><i>Office Assistant</b></i><br>
-- Informed prospective new customers about insurance packages<br>
-- Assisted customers with billing and account issues<br>
-- Reorganized and updated customer database in MS Excel<br>
-</div>
-
+  <div class="work1">
+    <h2 class="res2">Country Financial Insurance</h2>
+    <h4 class="res4">Office Assistant</h4>
+      <ul>
+        <li>Informed prospective new customers about insurance packages</li>
+        <li>Assisted customers with billing and account issues</li>
+        <li>Reorganized and updated customer database in MS Excel</li>
+      </ul>
+  </div>
 </section>
 
-<br><br>
-
-    <h1>Activities & Interests</h1>
-
+  <h1 class="letter">Activities & Interests</h1>
     <ul>
       <li>Alpha Delta Pi Sorority</li>
       <li>Orange Umbrella</li>
@@ -220,9 +96,7 @@ a:visited {
       <li>Hurricane Productions Concerts</li>
     </ul>
 
-    <br>
-
-<h1>Education</h1>
+<h1 class="letter">Education</h1>
     <table>
       <tr>
         <th>School</th>
@@ -245,16 +119,19 @@ a:visited {
         <td>2016-2020</td>
       </tr>
     </table>
-    <br><br>
-  </body>
+  </main>
+</body>
+
 
 <footer>
-  <b>Address</b>
+
+  <b>Address:</b>
       <address>
         Josephine Argento <br>
         6610 SW 57th Ave<br>
         Miami, FL 33143
       </address>
+    
 </footer>
 
 </html>
