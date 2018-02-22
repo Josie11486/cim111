@@ -10,25 +10,30 @@
       background-color: white;
       width: 800px;
       margin: 0 auto;
+      padding: 10px;
     }
 
     body {
       background-color: lightblue;
+      font-family: Open Sans Condensed;
       width: 800px;
       margin: 0 auto;
-      font-family: Open Sans Condensed;
+      padding: 10px;
+
     }
 
     main {
       background-color: white;
       width: 800px;
+      margin: 0 auto;
+      padding: 10px;
     }
 
     footer {
-      background-color: grey;
-      width: 780px;
+      background-color: white;
+      color: grey;
+      width: 800px;
       margin: 0 auto;
-      color: white;
       padding: 10px;
     }
 
