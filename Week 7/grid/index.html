@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<HTML>
+
+  <head>
+    <title>Percentage Layout</title>
+    <link rel="stylesheet" href="css/desktop.css" media = "only screen and (min-width: 760px)">
+    <link rel="stylesheet" href="css/mobile.css" media = "only screen and (max-width: 759px)">
+
+    <style>
+
+      header{
+        width: 960px;
+        height: 100px;
+        background-color: coral;
+        margin: 0 auto;
+      }
+
+      main{
+        width: 960px;
+        height: 2000px;
+        background-color: lightblue;
+        margin: 0 auto;
+      }
+
+      #grid1{
+        height: auto;
+        display: grid;
+        grid-template-rows: 200px 200px 400px 400px;
+        grid-template-columns: 480px 480px;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <header> Issa Header </header>
+    <main>
+
+      <div id="grid1">
+        <div>row 1 col 1</div>
+        <div> row 1 col 2</div>
+
+        <div>row 2 col 1</div>
+        <div>row 2 col 2</div>
+
+        <div>row 3 col 1</div>
+        <div>row 3 col 2</div>
+
+        <div>row 4 col 1</div>
+        <div>row 4 col 2</div>
+
+     </main>
+    <footer> tres </footer>
+  </body>
+
+
+</html>
