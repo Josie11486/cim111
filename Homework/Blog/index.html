@@ -2,76 +2,153 @@
 <HTML>
 
   <head>
-    <title>Percentage Layout</title>
+    <title class="title">Josephine The Blog</title>
     <link rel="stylesheet" href="css/desktop.css" media = "only screen and (min-width: 760px)">
     <link rel="stylesheet" href="css/mobile.css" media = "only screen and (max-width: 759px)">
 
     <style>
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
       header{
         width: 960px;
-        height: 100px;
+        height: 150px;
         background-color: coral;
         margin: 0 auto;
+        text-align: center;
+        font-family: Montserrat;
       }
 
-      main{
-        width: 960px;
-        height: 2000px;
-        background-color: lightblue;
-        margin: 0 auto;
+
+      ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color:blue;
+        margin-top: 71px;
+        font-family: Montserrat;
       }
+
+
+      li {
+        float: left;
+      }
+
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: pink;
+      }
+
+
+      main{
+          width: 960px;
+          height: 1260px;
+          background-color: lightblue;
+          margin: 0 auto;
+          font-family: Montserrat;
+        }
+
+
+      footer{
+        width: 960px;
+        height: 100px;
+        background-color: lightgreen;
+        margin: 0 auto;
+        text-align: center;
+        font-family: Montserrat;
+      }
+
 
       #grid1{
         height: auto;
         display: grid;
-        grid-template-rows: 200px 200px 400px 400px;
-        grid-template-columns: 480px 480px;
+        grid-template-rows: 400px;
+        grid-template-columns: 960px;
+        background-color: lightgreen;
+        text-align: center;
       }
+
 
       #grid2{
         height: auto;
         display: grid;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 400px 400px;
+        grid-template-columns: 50% 50%;
         background-color: pink;
         padding: 10px;
-        margin: 20px
+        margin: 20px;
+        text-align: center;
       }
+
+      .centerimage {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 15px;
+          height: 300px;
+      }
+
+
+      .title{
+        text-align: center;
+        padding: 10px;
+      }
+
 
     </style>
 
   </head>
 
   <body>
-    <header> Issa Header </header>
+    <header>
+
+      <h1>Josephine The Blog</h1>
+
+      <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About Me</a></li>
+          </ul>
+      </nav>
+
+    </header>
+
     <main>
 
       <div id="grid1">
-        <div>row 1 col 1</div>
-        <div>row 1 col 2</div>
-
-        <div>row 2 col 1</div>
-        <div>row 2 col 2</div>
-
-        <div>row 3 col 1</div>
-        <div>row 3 col 2</div>
-
-        <div>row 4 col 1</div>
-        <div>row 4 col 2</div>
+        <div>Featured Post</div>
       </div>
 
       <div>
           <div id="grid2">
-            <div>row 1 col 1 waaaaaa aaaaat</div>
-            <div> row 1 col 2 whaaaaaaaa aaaaaaaaaaaaaaaa aaaaaaaaaaaa aaaaaaaaat</div>
+            <div>Spring Break in St.Thomas</div>
+            <div>
+              Post 2 <br><br> [Coming Soon!]
+              <img src="images/leaves.jpeg" width="200" class="centerimage">
+            </div>
 
-            <div>row 2 col 1 whaaa ssssss ssss ssssssss ssssss sssaaaaa aaaaaaaaaa aaaa aaaat</div>
-            <div>row 2 col 2 whaaaaaaaassss ssssssssss ssssssss sssaaaaaaaa aaaaaaaaaat</div>
+            <div>
+              Post 3 <br><br> [Coming Soon!]
+              <img src="images/trees.jpeg" width="200" class="centerimage">
+            </div>
+            <div>
+              Post 4 <br><br> [Coming Soon!]
+              <img src="images/monkey.jpeg" width="200" class="centerimage">
+            </div>
       </div>
 
 
      </main>
-    <footer> tres </footer>
+    <footer>Footer</footer>
   </body>
 
 
