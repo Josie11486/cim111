@@ -13,7 +13,7 @@
       header{
         width: 960px;
         height: 150px;
-        background-color: coral;
+        background-color: white;
         margin: 0 auto;
         text-align: center;
         font-family: Montserrat;
@@ -25,35 +25,35 @@
         list-style-type: none;
         margin: 0px;
         padding: 0px;
-        overflow: hidden;
-        background-color:blue;
-        margin-top: 71px;
+        background-color: white;
+        margin-top: 20px;
         font-family: Montserrat;
       }
 
 
       li {
-        float: left;
+        display:inline;
       }
 
 
       li a {
         display: block;
-        color: white;
+        color: black;
         text-align: center;
-        padding: 12px;
+        padding: 15px;
         text-decoration: none;
+        display:inline;
       }
 
       li a:hover {
-        background-color: pink;
+        background-color: lightblue;
       }
 
 
       main{
           width: 960px;
-          height: 1260px;
-          background-color: lightblue;
+          height: 2000;
+          background-color: white;
           margin: 0 auto;
           font-family: Montserrat;
         }
@@ -62,7 +62,7 @@
       footer{
         width: 940px;
         height: 100px;
-        background-color: lightgreen;
+        background-color: white;
         margin: 0 auto;
         text-align: center;
         font-family: Montserrat;
@@ -74,28 +74,46 @@
         display: grid;
         grid-template-rows: 400px;
         grid-template-columns: 960px;
-        background-color: lightgreen;
+        background-color: white;
         text-align: center;
+        margin-top: 40px;
       }
 
 
       #grid2{
         height: auto;
-        display: grid;
-        grid-template-rows: 400px 400px;
-        grid-template-columns: 50% 50%;
+        display:grid;
+        grid-template-rows: 530px 530px;
+        grid-template-columns: 480px 480px;
         background-color: white;
-        padding: 10px;
-        margin: 20px;
+        padding: 0px;
+        margin: 0px;
         text-align: center;
       }
 
-      .images {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          padding: 15px;
-          height: 300px;
+      .imagesL {
+        display: block;
+        float: right;
+        margin: 0px;
+        height: 460px;
+        margin-top: 10px;
+      }
+
+      .imagesR {
+        display: block;
+        float: left;
+        margin: 0px;
+        height: 460px;
+        margin-top: 10px;
+      }
+
+      .feature {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        width: 960px;
+        margin-top: 0px;
+
       }
 
 
@@ -105,8 +123,8 @@
       }
 
       .format1{
-        padding: 10px;
-        margin: 0 auto;
+        display: block;
+        width: 100%;
       }
 
 
@@ -131,30 +149,39 @@
     <main>
 
       <div id="grid1">
-        <div class="format1">Featured Post: Spring Break in St.Thomas</div>
+        <div class="format1"><h3>Featured Post: Spring Break in St.Thomas </h3> <br>
+          <img src="images/panorama.jpg" class="feature">
+
+        </div>
       </div>
 
       <div>
           <div id="grid2">
-            <div>Spring Break in St.Thomas</div>
-            <div>
-              Post 2 <br><br> [Coming Soon!]
-              <img src="images/water.jpeg" class="images">
+
+            <div>Spring Break: <br> St.Thomas USVI
+              <img src="images/title.jpg" class="imagesR">
             </div>
 
             <div>
-              Post 3 <br><br> [Coming Soon!]
-              <img src="images/pink.jpeg" class="images">
+              Post 2: <br>[Coming Soon]
+              <img src="images/leaves.jpeg" class="imagesL">
             </div>
+
             <div>
-              Post 4 <br><br> [Coming Soon!]
-              <img src="images/sip.jpeg" class="images">
+              Post 3: <br> [Coming Soon]
+              <img src="images/pink.jpeg" class="imagesR">
             </div>
+
+            <div>
+              Post 4: <br> [Coming Soon]
+              <img src="images/sip.jpeg" class="imagesL">
+            </div>
+
       </div>
 
 
      </main>
-    <footer class="format1">Footer</footer>
+    <footer></footer>
   </body>
 
 
