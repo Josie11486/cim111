@@ -12,11 +12,12 @@
 
       header{
         width: 960px;
-        height: 150px;
+        height: 80px;
         background-color: white;
         margin: 0 auto;
         text-align: center;
         font-family: Montserrat;
+        background-color: white;
       }
 
 
@@ -67,22 +68,28 @@
         font-family: Montserrat;
       }
 
+      h2{
+        font-size: 80px;
+        margin: 0 auto;
+      }
+
 
       #grid1{
         height: auto;
         display: grid;
-        grid-template-rows: 400px;
+        grid-template-rows: 100px;
         grid-template-columns: 960px;
         background-color: white;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 100px;
+        margin-bottom: 50px;
       }
 
 
       #grid2{
         height: auto;
         display:grid;
-        grid-template-rows: 530px 530px;
+        grid-template-rows: 480px 480px 480px;
         grid-template-columns: 480px 480px;
         background-color: white;
         padding: 0px;
@@ -90,20 +97,19 @@
         text-align: center;
       }
 
-      .imagesL {
+      .images {
         display: block;
-        float: right;
         margin: 0px;
-        height: 460px;
-        margin-top: 10px;
+        width: 400px;
+        margin-top: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
       }
 
-      .imagesR {
-        display: block;
-        float: left;
-        margin: 0px;
-        height: 460px;
-        margin-top: 10px;
+      .text{
+        margin-top: 5px;
+        margin-bottom: 0px;
       }
 
       .feature {
@@ -112,7 +118,6 @@
         padding: 0px;
         width: 960px;
         margin-top: 0px;
-
       }
 
 
@@ -124,6 +129,7 @@
       .format1{
         display: block;
         width: 100%;
+        padding: 0px;
       }
 
 
@@ -139,7 +145,7 @@
       <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="AboutMe.html">About Me</a></li>
+            <li><a href="index.html">About Me</a></li>
           </ul>
       </nav>
 
@@ -148,32 +154,37 @@
     <main>
 
       <div id="grid1">
-        <div class="format1"><h3>Featured Post: Spring Break in St.Thomas </h3> <br>
-          <img src="images/panorama.jpg" class="feature">
-
+        <div class="format1"><h2>About Me:</h2></div>
         </div>
-      </div>
 
       <div>
           <div id="grid2">
 
-            <div>Spring Break: <br> St.Thomas USVI
-              <img src="images/title.jpg" class="imagesR">
+            <div>
+              <img src="images/student.jpg" class="images">
+            </div>
+
+            <div class="text">
+              <h3>I'm a sophomore at University of Miami</h3>
+              <p> Mention ADPi, major, OU, etc </p>
             </div>
 
             <div>
-              Post 2: <br>[Coming Soon]
-              <img src="images/leaves.jpeg" class="imagesL">
+              <img src="images/chicago.jpg" class="images">
+            </div>
+
+            <div class="text">
+              <h3>Chicago is my favorite city...</h3>
+              <p>Mention Whitney Young, Pizza, the lake, the windy city</p>
             </div>
 
             <div>
-              Post 3: <br> [Coming Soon]
-              <img src="images/pink.jpeg" class="imagesR">
+              <img src="images/travel.jpg" class="images">
             </div>
 
-            <div>
-              Post 4: <br> [Coming Soon]
-              <img src="images/sip.jpeg" class="imagesL">
+            <div class="text">
+              <h3>... but I love to travel!</h3>
+              <p>Chicago will always be number one in my heart, but I love exploring new places! Oh look, there I am in Iceland.</p>
             </div>
 
       </div>
