@@ -34,7 +34,8 @@ body{
   display: block;
   float: left;
   margin: 0px;
-  height: 460px;
+  height: auto;
+  width: 350px;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -45,7 +46,8 @@ body{
   display: block;
   float: left;
   margin: 0px;
-  height: 460px;
+  height: auto;
+  width: 350px;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -54,4 +56,5 @@ body{
 /*
 1. How do I get rid of grid 1 when my screen is smaller than that photo?
 2. How do I get grid 2 to stack and just stay in the center of the screen whatever size it is?
+3. I want the width of the photos in grid 2 to just be 100% of whatever the screen size is. how?
  */
