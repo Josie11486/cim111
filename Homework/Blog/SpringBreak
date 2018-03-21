@@ -3,137 +3,8 @@
 
   <head>
     <title class="title">Josephine The Blog</title>
-    <link rel="stylesheet" href="css/desktop.css" media = "only screen and (min-width: 760px)">
-    <link rel="stylesheet" href="css/mobile.css" media = "only screen and (max-width: 759px)">
-
-    <style>
-
-    @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-      header{
-        width: 960px;
-        height: 80px;
-        background-color: white;
-        margin: 0 auto;
-        text-align: center;
-        font-family: Montserrat;
-        background-color: white;
-      }
-
-
-      ul{
-        list-style-type: none;
-        margin: 0px;
-        padding: 0px;
-        background-color: white;
-        margin-top: 20px;
-        font-family: Montserrat;
-      }
-
-
-      li {
-        display:inline;
-      }
-
-
-      li a {
-        display: block;
-        color: black;
-        text-align: center;
-        padding: 15px;
-        text-decoration: none;
-        display:inline;
-      }
-
-      li a:hover {
-        background-color: lightblue;
-      }
-
-
-      main{
-          width: 960px;
-          height: 2000;
-          background-color: white;
-          margin: 0 auto;
-          font-family: Montserrat;
-        }
-
-
-      footer{
-        width: 940px;
-        height: 100px;
-        background-color: white;
-        margin: 0 auto;
-        text-align: center;
-        font-family: Montserrat;
-      }
-
-      h2{
-        font-size: 80px;
-        margin: 0 auto;
-      }
-
-
-      #grid1{
-        height: auto;
-        display: grid;
-        grid-template-rows: 100px;
-        grid-template-columns: 960px;
-        background-color: white;
-        text-align: center;
-        margin-top: 100px;
-        margin-bottom: 50px;
-      }
-
-
-      #grid2{
-        height: auto;
-        display:grid;
-        grid-template-rows: 480px 480px 480px;
-        grid-template-columns: 480px 480px;
-        background-color: white;
-        padding: 0px;
-        margin: 0px;
-        text-align: center;
-      }
-
-      .images {
-        display: block;
-        margin: 0px;
-        width: 400px;
-        margin-top: 0px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      .text{
-        margin-top: 5px;
-        margin-bottom: 0px;
-      }
-
-      .feature {
-        display: block;
-        margin: 0px;
-        padding: 0px;
-        width: 960px;
-        margin-top: 0px;
-      }
-
-
-      .title{
-        text-align: center;
-        padding: 10px;
-      }
-
-      .format1{
-        display: block;
-        width: 100%;
-        padding: 0px;
-      }
-
-
-    </style>
+    <link rel="stylesheet" href="css/SpringBreak.css" media = "only screen and (min-width: 760px)">
+    <link rel="stylesheet" href="css/SpringBreakMobile.css" media = "only screen and (max-width: 759px)">
 
   </head>
 
@@ -154,37 +25,72 @@
     <main>
 
       <div id="grid1">
-        <div class="format1"><h2>About Me:</h2></div>
+        <div class="format1"><h2>Spring Break: St.Thomas USVI</h2></div>
         </div>
 
       <div>
           <div id="grid2">
 
             <div>
-              <img src="images/student.jpg" class="images">
+              <img src="images/map.jpg" class="images">
             </div>
 
             <div class="text">
-              <h3>I'm a sophomore at University of Miami</h3>
-              <p> Mention ADPi, major, OU, etc </p>
+              <h3>Where's That?</h3>
+              <p>Just east of Puerto Rico in the Caribbean Sea, there is a cluster of tiny rocks called the virgin islands. About half of them are US Virgin Islands, or USVI’s, and the rest are British Virgin Islands, or BVI’s. St. Thomas is the largest USVI with a population of about 39,000. The islands are so small they are nearly invisible on a full scale map. </p>
             </div>
 
             <div>
-              <img src="images/chicago.jpg" class="images">
+              <img src="images/views1.jpg" class="images">
             </div>
-
             <div class="text">
-              <h3>Chicago is my favorite city...</h3>
-              <p>Mention Whitney Young, Pizza, the lake, the windy city</p>
+              <h3>Vantage Point</h3>
+              <p>Our condo is perched in the mountains on the northeast side of the island, marked by the red pin on the map. The island in the distance is called Hans Lollik. It is uninhabited by humans, but it is home to lots of small goats!</p>
             </div>
 
             <div>
-              <img src="images/travel.jpg" class="images">
+              <img src="images/squad.jpg" class="images">
             </div>
 
             <div class="text">
-              <h3>... but I love to travel!</h3>
-              <p>Chicago will always be number one in my heart, but I love exploring new places! Oh look, there I am in Iceland.</p>
+              <h3>The Squad</h3>
+              <p>Here are the lovely ladies I spent the week with: Bailee, Dimitra, and Joelle. Bailee is a year older than me and she grew up on St. Thomas, where I met her two years ago. She showed us around all week! Dimitra is my best friend from high school, known for throwing legendary house parties and always having a good time (as you can see, she's always ready to bust a move). Joelle is my BFF and roommate in Miami, but she grew up in Jamaica. A true island girl, she felt right at home. </p>
+            </div>
+
+            <div>
+              <img src="images/MagensBay.jpg" class="images">
+            </div>
+
+            <div class="text">
+              <h3>Magen's Bay</h3>
+              <p>Here is an overview of the island’s most famous beach, Magen’s Bay! The area was hit pretty badly by Hurricane Irma, but they restored it quickly and it's as beautiful as ever! This is where we spend the majority of the daylight hours, with the exception of one lazy day. </p>
+            </div>
+
+            <div>
+              <img src="images/paddle5.jpg" class="images">
+            </div>
+
+            <div class="text">
+              <h3>Paddle Boarding</h3>
+              <p>Dimitra falls of the paddle board mid-photoshoot, classic!</p>
+            </div>
+
+            <div>
+              <img src="images/paddle6.jpg" class="images">
+            </div>
+
+            <div class="text">
+              <h3></h3>
+              <p> ... don't worry, she got back up there right away. </p>
+            </div>
+
+            <div>
+              <img src="images/rainbow.jpg" class="images">
+            </div>
+
+            <div class="text">
+              <h3>Double Rainbow!</h3>
+              <p>After 5 days of full sunshine, we had 1 stormy day, but it paid off in the end. It was the perfect finale to our trip!</p>
             </div>
 
       </div>

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+  header{
+    width: 960px;
+    height: 150px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Montserrat;
+  }
+
+
+  ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    margin-top: 20px;
+    font-family: Montserrat;
+  }
+
+
+  li {
+    display:inline;
+  }
+
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    display: inline;
+  }
+
+  li a:hover {
+    color: lightblue;
+  }
+
+
+  main{
+      width: 960px;
+      height: 2000;
+      background-color: white;
+      margin: 0 auto;
+      font-family: Montserrat;
+    }
+
+
+  footer{
+    width: 940px;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Montserrat;
+  }
+
+
+  #grid1{
+    height: auto;
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 960px;
+    background-color: white;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+
+  #grid2{
+    height: auto;
+    display:grid;
+    grid-template-rows: 530px 530px;
+    grid-template-columns: 480px 480px;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .imagesL {
+    display: block;
+    float: right;
+    margin: 0px;
+    height: 460px;
+    margin-top: 10px;
+  }
+
+  .imagesR {
+    display: block;
+    float: left;
+    margin: 0px;
+    height: 460px;
+    margin-top: 10px;
+  }
+
+  .feature {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 960px;
+    margin-top: 0px;
+  }
+
+
+  .title{
+    text-align: center;
+    padding: 10px;
+  }
+
+  .format1{
+    display: block;
+    width: 100%;
+  }
+
+  a{
+    color:black;
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px;
+  }
+
+  a:hover {
+    color: lightblue;
+  }
