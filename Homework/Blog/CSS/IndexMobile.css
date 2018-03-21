@@ -1,1 +1,57 @@
-@import "index.css"
+@import "index.css";
+
+header{
+  width: 100%;
+}
+
+main{
+  width: 100%;
+}
+
+body{
+  width: 100%;
+}
+
+
+#grid2{
+  width: 100%
+  display: block;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+}
+
+.feature {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 960px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+
+.imagesL {
+  display: block;
+  float: left;
+  margin: 0px;
+  height: 460px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.imagesR {
+  display: block;
+  float: left;
+  margin: 0px;
+  height: 460px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*
+1. How do I get rid of grid 1 when my screen is smaller than that photo?
+2. How do I get grid 2 to stack and just stay in the center of the screen whatever size it is?
+ */
