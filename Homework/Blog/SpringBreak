@@ -27,8 +27,8 @@
 
         <div class="format1"><h2>Spring Break: St.Thomas USVI</h2></div>
 
-      <div>
-          <div id="grid2">
+
+         <div id="grid2">
 
             <div>
               <img src="images/map.jpg" class="images">
@@ -37,7 +37,12 @@
 
             <div class="text">
               <h3>Where's That?</h3>
-              <p>Just east of Puerto Rico in the Caribbean Sea, there is a cluster of tiny rocks called the virgin islands. About half of them are US Virgin Islands, or USVI’s, and the rest are British Virgin Islands, or BVI’s. St. Thomas is the largest USVI with a population of about 39,000. The islands are so small they are nearly invisible on a full scale map. </p>
+              <p>Just east of Puerto Rico in the Caribbean Sea, there is a maritime paradise
+                called the Virgin Islands. Some are British territories and
+                others are part of the United States. St. Thomas is the largest USVI
+                with a population of about 39,000. It is only 32 square miles in size,
+                so small that it is nearly invisible on a full scale map. But all you really
+                need to know is that the locals are friendly, the weather is perfect, and the drinks are stong.</p>
             </div>
 
 
@@ -47,7 +52,7 @@
 
             <div class="text">
               <h3>Vantage Point</h3>
-              <p>Our condo is perched in the mountains on the northeast side of the island, marked by the red pin on the map. The island in the distance is called Hans Lollik. It is uninhabited by humans, but it is home to lots of small goats!</p>
+              <p>Our condo is perched in the mountains on the northeast side of the island, marked by the red pin on the map. The island in the distance is called Hans Lollik. It is uninhabited by humans, but it's home to lots of small mountain goats!</p>
             </div>
 
             <div>
@@ -56,7 +61,12 @@
 
             <div class="text">
               <h3>The Squad</h3>
-              <p>Here are the lovely ladies I spent the week with: Bailee, Dimitra, and Joelle. Bailee is a year older than me and she grew up on St. Thomas, where I met her two years ago. She showed us around all week! Dimitra is my best friend from high school, known for throwing legendary house parties and always having a good time (as you can see, she's always ready to bust a move). Joelle is my BFF and roommate in Miami, but she grew up in Jamaica. A true island girl, she felt right at home. </p>
+              <p>Here are the lovely ladies I spent the week with: Bailee, Dimitra, and Joelle.
+                Bailee grew up on St. Thomas, where I met her two years ago. She showed us around
+                 all week and took us to all the cool local spots! Dimitra is my best friend from
+                 high school, known for throwing legendary parties and always having a good time
+                 (as you can see, she's always ready to bust a move). Joelle is my BFF and roommate
+                 in Miami, but she grew up in Jamaica. A true island girl, she felt right at home. </p>
             </div>
 
             <div>
@@ -91,7 +101,7 @@
             </div>
 
             <div class="text">
-              <h3>Double Rainbow!</h3>
+              <h3>Double Rainbow</h3>
               <p>After 5 days of full sunshine, we had 1 stormy day, but it paid off in the end. It was the perfect finale to our trip!</p>
             </div>
 
