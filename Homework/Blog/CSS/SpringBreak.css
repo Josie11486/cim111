@@ -2,7 +2,7 @@
 
   header{
     width: 960px;
-    height: 80px;
+    height: 60px;
     background-color: white;
     margin: 0 auto;
     text-align: center;
@@ -64,21 +64,9 @@
   }
 
 
-  #grid1{
-    height: auto;
-    display: grid;
-    grid-template-rows: 100px;
-    grid-template-columns: 960px;
-    background-color: white;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
-  }
-
-
   #grid2{
     height: auto;
-    display:grid;
+    display: grid;
     grid-template-rows: 300px 365px 630px 335px 500px 512px 300px;
     grid-template-columns: 480px 480px;
     background-color: white;
@@ -88,15 +76,11 @@
     margin-top: 200px;
   }
 
-  #grid3{
-
-  }
-
   .images {
     display: block;
     margin: 0px;
     width: 450px;
-    margin-top: 0;
+    margin-top: 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -105,7 +89,6 @@
   .text{
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 5px;
   }
 
   .feature {
@@ -126,4 +109,7 @@
     display: block;
     width: 100%;
     padding: 0px;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: -80px;
   }

@@ -4,7 +4,6 @@
 header{
   width: 100%;
   height: 40px;
-
 }
 
 main{
@@ -19,19 +18,19 @@ h3{
   font-size: 40px;
 }
 
-#grid1{
-  width: 100%;
-  display: block;
-  grid-template-rows: auto;
-  grid-template-columns: 100%;
-  margin right: 20px;
-  padding: 15px;
+h2{
+  font-size: 40px;
+}
+
+
+.format1{
+  margin-bottom: 120px;
 }
 
 
 #grid2{
   width: 100%;
-  display: block;
+  display: block; 
   grid-template-rows: auto;
   grid-template-columns: 100%;
   margin-top: -50px;
@@ -53,11 +52,4 @@ p{
   width: 90%;
   float: none;
   padding-right: 15px;
-
-}
-
-
-
-h2{
-  font-size: 40px;
 }

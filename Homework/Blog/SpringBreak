@@ -25,9 +25,7 @@
 
     <main>
 
-      <div id="grid1">
         <div class="format1"><h2>Spring Break: St.Thomas USVI</h2></div>
-        </div>
 
       <div>
           <div id="grid2">
@@ -36,14 +34,17 @@
               <img src="images/map.jpg" class="images">
             </div>
 
+
             <div class="text">
               <h3>Where's That?</h3>
               <p>Just east of Puerto Rico in the Caribbean Sea, there is a cluster of tiny rocks called the virgin islands. About half of them are US Virgin Islands, or USVI’s, and the rest are British Virgin Islands, or BVI’s. St. Thomas is the largest USVI with a population of about 39,000. The islands are so small they are nearly invisible on a full scale map. </p>
             </div>
 
+
             <div>
               <img src="images/views1.jpg" class="images">
             </div>
+
             <div class="text">
               <h3>Vantage Point</h3>
               <p>Our condo is perched in the mountains on the northeast side of the island, marked by the red pin on the map. The island in the distance is called Hans Lollik. It is uninhabited by humans, but it is home to lots of small goats!</p>

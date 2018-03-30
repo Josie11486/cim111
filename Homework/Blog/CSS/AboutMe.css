@@ -4,7 +4,7 @@
 
   header{
     width: 960px;
-    height: 80px;
+    height: 60px;
     background-color: white;
     margin: 0 auto;
     text-align: center;
@@ -61,26 +61,14 @@
   }
 
   h2{
-    font-size: 80px;
+    font-size: 100px;
     margin: 0 auto;
-  }
-
-
-  #grid1{
-    height: auto;
-    display: grid;
-    grid-template-rows: 300px;
-    grid-template-columns: 960px;
-    background-color: white;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
   }
 
 
   #grid2{
     height: auto;
-    display:grid;
+    display: grid;
     grid-template-rows: 480px 480px 480px;
     grid-template-columns: 480px 480px;
     background-color: white;
@@ -100,7 +88,7 @@
   }
 
   .text{
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 0px;
   }
 
@@ -121,5 +109,7 @@
   .format1{
     display: block;
     width: 100%;
-    padding: 0px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
   }

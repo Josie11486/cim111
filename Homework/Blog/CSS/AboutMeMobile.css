@@ -17,13 +17,8 @@ h2{
   font-size: 60px;
 }
 
-#grid1{
-  width: 100%;
-  display: block;
-  grid-template-rows: auto;
-  grid-template-columns: 100%;
-  margin right: 20px;
-  padding: 15px;
+.format1{
+  margin-bottom: 80px;
 }
 
 
