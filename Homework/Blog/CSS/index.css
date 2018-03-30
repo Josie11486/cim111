@@ -52,7 +52,7 @@
 
   footer{
     width: 940px;
-    height: 100px;
+    height: 10px;
     background-color: white;
     margin: 0 auto;
     text-align: center;
@@ -73,7 +73,7 @@
 
   #grid2{
     height: auto;
-    display:grid;
+    display: grid;
     grid-template-rows: 530px 530px;
     grid-template-columns: 480px 480px;
     background-color: white;

@@ -13,41 +13,38 @@ body{
   width: 100%;
 }
 
-#grid1{
-  width: 100%
-  display: block;
-  grid-template-rows: auto;
-  grid-template-columns: 100%;
-  margin right: 20px;
-}
-
-
-/* This is the class within the image tag */
-.feature {
-  display: block;
-  width: 90%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  padding: 10px;
-  float: none;
-  text-align: center;
-  margin bottom: 0px;
-}
-
 h3{
   margin-right: 15px;
   padding: 0px;
   margin-bottom: -15px;
 }
 
+#grid1{
+  width: 100%
+  display: block;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+  margin right: 20px;
+  padding: 15px;
+}
+
+
+/* This is the class within the image tag */
+.feature {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin bottom: 0px;
+}
 
 #grid2{
   width: 100%
   display: block;
   grid-template-rows: auto;
   grid-template-columns: 100%;
+  padding: 15px;
 }
 
 
