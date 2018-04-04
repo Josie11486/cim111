@@ -1,0 +1,68 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+  header{
+    width: 960px;
+    height: 150px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Montserrat;
+    background-color: white;
+  }
+
+  main{
+      width: 960px;
+      height: 2000;
+      background-color: white;
+      margin: 0 auto;
+      font-family: Montserrat;
+    }
+
+
+  footer{
+    width: 940px;
+    height: 10px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Montserrat;
+  }
+
+  h1{
+    font-size: 60px;
+  }
+
+
+  #grid{
+    height: auto;
+    display: grid;
+    grid-template-rows: 400px 400px 400px;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .images {
+    display: block;
+    margin: 0px;
+    width: 400px;
+    margin-top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+
+  .title{
+    text-align: center;
+    padding: 10px;
+  }
