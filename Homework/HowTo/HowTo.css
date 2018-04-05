@@ -66,6 +66,16 @@
     text-align: center;
   }
 
+  #one{
+    text-align: left;
+    padding 10px;
+    margin-top: 20px;
+  }
+
+  #degrees{
+    
+  }
+
 
 .ingredients{
   text-align: left;

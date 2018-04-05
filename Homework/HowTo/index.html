@@ -9,8 +9,17 @@
     <script>
 $(document).ready(function(){
   $("#one").click(function(){
-     $("p").append(" <b> Can I put a list here? </b>.");
+     $("#one").append(" <p>Cake:<br>2 x 8in tins<br>6 eggs<br>12oz self raising flour<br>12oz unsalted butter<br>12oz caster sugar (granulated)<br>1tsp baking powder<br>Juice + zest 2 lemons<br>Splash of milk <br><br>Frosting:<br>250g cream cheese<br>50g butter (room temp)<br>100g Icing/powdered sugar<br>Juice + zest one lemon<br> </p>.");
  });
+
+ $("#degrees").mouseenter(function(){
+        $("#degrees").css("front-size", "400px");
+    });
+
+    $("#degrees").mouseleave(function(){
+        $("#degrees").css("font-size", "50px");
+    });
+
 });
 </script>
   </head>
@@ -25,31 +34,9 @@ $(document).ready(function(){
       <div>
           <div id="grid">
 
-            <div class="text">
-              <h3>Step 1: Gather Ingredients</h3>
-              <button id="one">Grocery List</button>
-
-              <ul>
-                <h2>Cake</h2>
-                <li>2 x 8in tins</li>
-                <li>6 eggs</li>
-                <li>12oz self raising flour</li>
-                <li>12oz unsalted butter</li>
-                <li>12oz caster sugar (granulated)</li>
-                <li>1tsp baking powder </li>
-                <li>Juice + zest 2 lemons</li>
-                <li>Splash of milk</li>
-              </ul>
-
-              <ul>
-                <h2>Frosting:</h2>
-                <li>250g cream cheese </li>
-                <li>50g butter (room temp)</li>
-                <li>100g Icing/powdered sugar</li>
-                <li>Juice + zest one lemon</li>
-              </ul>
-            </div>
-
+          <div>
+            <button id="one">Grocery List</button>
+          </div>
 
             <div>
               <img src="images/ingredients.jpg" class="images">
@@ -57,7 +44,9 @@ $(document).ready(function(){
 
             <div class="text">
               <h3>Step 2: Pre-Heat the Oven</h3>
-              <p>350 Degrees</p>
+              <div id=degrees>
+                350
+              </div>
             </div>
 
             <div>
