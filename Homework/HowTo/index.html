@@ -2,13 +2,22 @@
 <HTML>
 
   <head>
-    <title class="title">How To: <br> Lemon Drizzle Cake</title>
+    <title class="title">How To: <br> Lemon Cake</title>
     <link rel="stylesheet" href="HowTo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+$(document).ready(function(){
+  $("#one").click(function(){
+     $("p").append(" <b> Can I put a list here? </b>.");
+ });
+});
+</script>
   </head>
 
   <body>
     <header>
-      <h1>How To: Lemon Drizzle Cake</h1>
+      <h1>How To: Lemon Cake</h1>
     </header>
 
     <main>
@@ -16,31 +25,79 @@
       <div>
           <div id="grid">
 
+            <div class="text">
+              <h3>Step 1: Gather Ingredients</h3>
+              <button id="one">Grocery List</button>
+
+              <ul>
+                <h2>Cake</h2>
+                <li>2 x 8in tins</li>
+                <li>6 eggs</li>
+                <li>12oz self raising flour</li>
+                <li>12oz unsalted butter</li>
+                <li>12oz caster sugar (granulated)</li>
+                <li>1tsp baking powder </li>
+                <li>Juice + zest 2 lemons</li>
+                <li>Splash of milk</li>
+              </ul>
+
+              <ul>
+                <h2>Frosting:</h2>
+                <li>250g cream cheese </li>
+                <li>50g butter (room temp)</li>
+                <li>100g Icing/powdered sugar</li>
+                <li>Juice + zest one lemon</li>
+              </ul>
+            </div>
+
+
             <div>
-              <img src="images/student.jpg" class="images">
+              <img src="images/ingredients.jpg" class="images">
             </div>
 
             <div class="text">
-              <h3>Step 1</h3>
-              <p> Instructions 1</p>
+              <h3>Step 2: Pre-Heat the Oven</h3>
+              <p>350 Degrees</p>
             </div>
 
             <div>
-              <img src="images/chicago.jpg" class="images">
+              <img src="images/350.jpg" class="images">
             </div>
 
             <div class="text">
-              <h3>Step 2</h3>
-              <p>Instructions 2</p>
+              <h3>Butter Your Pan</h3>
+              <p>Make sure to coat the bottom and the sides thuroughly.</p>
             </div>
 
             <div>
-              <img src="images/travel.jpg" class="images">
+              <img src="images/pan.jpg" class="images">
             </div>
 
             <div class="text">
-              <h3>Step 3</h3>
-              <p>Instructions 3</p>
+              <h3>Mix Ingredients</h3>
+              <p>Mix flour, sugar, and baking powder first. Then add eggs, butter, milk, and lemons. </p>
+            </div>
+
+            <div>
+              <img src="images/batter1.jpg" class="images">
+            </div>
+
+            <div class="text">
+              <h3>Bake</h3>
+              <p>Put your cake in the oven for about 30 minutes, or until they're no longer pale and wobbly. If you're not sure whether it's ready, stick a tooth pick in the center of the cake. If it comes out clean, they're done!</p>
+            </div>
+
+            <div>
+              <img src="images/bake.jpg" class="images">
+            </div>
+
+            <div class="text">
+              <h3>Enjoy!</h3>
+              <p>Best served with a fresh cup of coffee!</p>
+            </div>
+
+            <div>
+              <img src="images/cake2.jpg" class="images">
             </div>
 
       </div>
