@@ -2,7 +2,7 @@
 
 header{
   width: 100%;
-  height: 80px;
+  height: 100px;
 }
 
 main{
@@ -18,6 +18,12 @@ h3{
   padding: 0px;
   margin-bottom: -15px;
 }
+
+li a {
+    display: block;
+    padding: 3px;
+    font-size: 20px;
+  }
 
 #grid1{
   width: 100%

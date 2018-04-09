@@ -2,7 +2,7 @@
 
 header{
     width: 100%;
-    height: 40px;
+    height: 80px;
 }
 
 main{
@@ -16,6 +16,12 @@ body{
 h2{
   font-size: 60px;
 }
+
+li a {
+    display: block;
+    padding: 3px;
+    font-size: 20px;
+  }
 
 .format1{
   margin-bottom: 80px;
