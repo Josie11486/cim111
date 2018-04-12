@@ -44,8 +44,11 @@
     list-style-type: none;
     text-decoration: left;
     text-align: left;
-
   }
+
+p{
+  font-size: 13px;
+}
 
   .bro{
     padding:0px;
@@ -72,10 +75,6 @@
     margin-top: 20px;
   }
 
-  #degrees{
-    
-  }
-
 
 .ingredients{
   text-align: left;
@@ -87,9 +86,9 @@
   .images {
     display: block;
     margin: 0px;
-    width: 400px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -105,3 +104,11 @@
     text-align: center;
     padding: 10px;
   }
+
+  .box{
+        width: 100px;
+        height: 20px;
+        background-color: lightyellow;
+        margin: 0 auto;
+        padding: 5px;
+      }

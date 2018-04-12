@@ -1,39 +1,32 @@
 <!DOCTYPE HTML>
 <HTML>
 
-<!--
-3 click, mouseover, mouseleave events
-1 show/hide events
-    $("#clickBox").show();
-    $("#clickBox").hide();
-1 add html()
-    $("#replace").html("<p>More information #1</p>");
-    Replaces a given tags html content
-1 add method that changes an elements style.
-    $(".box").css("background-color", "blue");
--->
-
-
   <head>
     <title class="title">How To: <br> Lemon Cake</title>
-    <link rel="stylesheet" href="HowTo.css">
+    <link rel="stylesheet" href="index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script>
 $(document).ready(function(){
-  $("#one").click(function(){
-     $("#one").append(" <p>Cake:<br>2 x 8in tins<br>6 eggs<br>12oz self raising flour<br>12oz unsalted butter<br>12oz caster sugar (granulated)<br>1tsp baking powder<br>Juice + zest 2 lemons<br>Splash of milk <br><br>Frosting:<br>250g cream cheese<br>50g butter (room temp)<br>100g Icing/powdered sugar<br>Juice + zest one lemon<br> </p>.");
+
+  $("#box1").click(function(){
+    $("#oneStep").html(" <p>Cake:<br>2 x 8in tins<br>6 eggs<br>12oz self raising flour<br>12oz unsalted butter<br>12oz caster sugar (granulated)<br>1tsp baking powder<br>Juice + zest 2 lemons<br>Splash of milk <br><br>Frosting:<br>250g cream cheese<br>50g butter (room temp)<br>100g Icing/powdered sugar<br>Juice + zest one lemon<br> </p>.");
  });
 
- $("#degrees").mouseenter(function(){
-        $("#degrees").css("front-size", "400px");
-    });
+  $("#box2").click(function(){
+    $("#twoStep").html("<p>350 Degrees</p>");
+  });
 
-    $("#degrees").mouseleave(function(){
-        $("#degrees").css("font-size", "50px");
-    });
+  $("#box3").click(function(){
+    $("#threeStep").html("<p>Mix flour, sugar, and baking powder first.</p>");
+  });
 
-});
+  $("#box4").click(function(){
+    $("#fourStep").html("<p>Then add eggs, butter, milk, and lemons.</p>");
+    });
+      });
+        });
+
 </script>
   </head>
 
@@ -48,7 +41,9 @@ $(document).ready(function(){
           <div id="grid">
 
           <div>
-            <button id="one">Grocery List</button>
+            <h3>Step 1: Gather Ingredients</h3>
+            <div class="box" id="box1">Grocery List:</div>
+            <div id="oneStep"></div>
           </div>
 
             <div>
@@ -57,13 +52,12 @@ $(document).ready(function(){
 
             <div class="text">
               <h3>Step 2: Pre-Heat the Oven</h3>
-              <div id=degrees>
-                350
-              </div>
+              <div class="box" id="box2">Preheat:</div>
+              <div id="twoStep"></div>
             </div>
 
             <div>
-              <img src="images/350.jpg" class="images">
+              <img src="images/oven.jpg" class="images">
             </div>
 
             <div class="text">
@@ -77,7 +71,13 @@ $(document).ready(function(){
 
             <div class="text">
               <h3>Mix Ingredients</h3>
-              <p>Mix flour, sugar, and baking powder first. Then add eggs, butter, milk, and lemons. </p>
+
+              <div class="box" id="box3">1:</div>
+              <div id="threeStep"></div>
+              <br><br>
+
+              <div class="box" id="box4">2:</div>
+              <div id="fourStep"></div>
             </div>
 
             <div>
