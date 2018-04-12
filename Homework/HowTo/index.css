@@ -3,41 +3,38 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
   header{
-    width: 960px;
+    width: auto;
     height: 150px;
-    background-color: white;
     margin: 0 auto;
     text-align: center;
     font-family: Montserrat;
     background-color: white;
   }
 
-  main{
-      width: 960px;
+  body{
+      width: auto;
       height: 2000;
       background-color: white;
       margin: 0 auto;
       font-family: Montserrat;
     }
 
-
-  footer{
-    width: 940px;
-    height: 10px;
-    background-color: white;
-    margin: 0 auto;
-    text-align: center;
-    font-family: Montserrat;
-  }
-
   h1{
     font-size: 60px;
   }
 
   h2{
-    font-size: 19px;
+    font-size: 20px;
     margin: 0px;
     padding: 0px;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 20px;
   }
 
   ul{
@@ -46,17 +43,7 @@
     text-align: left;
   }
 
-p{
-  font-size: 13px;
-}
 
-  .bro{
-    padding:0px;
-    margin: 0px;
-    font-size:20px;
-    text-align: left;
-    margin-left: 120px;
-  }
 
   #grid{
     height: auto;
@@ -73,6 +60,13 @@ p{
     text-align: left;
     padding 10px;
     margin-top: 20px;
+  }
+
+  #hint{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 70px;
   }
 
 
@@ -108,7 +102,28 @@ p{
   .box{
         width: 100px;
         height: 20px;
-        background-color: lightyellow;
         margin: 0 auto;
         padding: 5px;
       }
+
+  .bigbox{
+        width: 180px;
+        height: 20px;
+        margin: 0 auto;
+        padding: 5px;
+          }
+
+  .lastbox{
+    width: 200px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  .bro{
+    padding:0px;
+    margin: 0px;
+    font-size:20px;
+    text-align: left;
+    margin-left: 120px;
+  }

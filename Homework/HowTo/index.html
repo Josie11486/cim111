@@ -4,38 +4,64 @@
   <head>
     <title class="title">How To: <br> Lemon Cake</title>
     <link rel="stylesheet" href="index.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <script>
-$(document).ready(function(){
 
-  $("#box1").click(function(){
-    $("#oneStep").html(" <p>Cake:<br>2 x 8in tins<br>6 eggs<br>12oz self raising flour<br>12oz unsalted butter<br>12oz caster sugar (granulated)<br>1tsp baking powder<br>Juice + zest 2 lemons<br>Splash of milk <br><br>Frosting:<br>250g cream cheese<br>50g butter (room temp)<br>100g Icing/powdered sugar<br>Juice + zest one lemon<br> </p>.");
- });
 
-  $("#box2").click(function(){
-    $("#twoStep").html("<p>350 Degrees</p>");
-  });
+        <script>
+        $(document).ready(function(){
 
-  $("#box3").click(function(){
-    $("#threeStep").html("<p>Mix flour, sugar, and baking powder first.</p>");
-  });
+        $(".box").css("background-color", "lemonchiffon");
+        $(".bigbox").css("background-color", "lemonchiffon");
+        $(".lastbox").css("background-color", "lemonchiffon");
+        $("#sevenStep").hide();
 
-  $("#box4").click(function(){
-    $("#fourStep").html("<p>Then add eggs, butter, milk, and lemons.</p>");
-    });
-      });
+
+        $("#box1").click(function(){
+        $("#oneStep").html(" <small>Cake:<br>2 x 8in tins<br>6 eggs<br>12oz self raising flour<br>12oz unsalted butter<br>12oz caster sugar (granulated)<br>1tsp baking powder<br>Juice + zest 2 lemons<br>Splash of milk <br><br>Frosting:<br>250g cream cheese<br>50g butter (room temp)<br>100g Icing/powdered sugar<br>Juice + zest one lemon<br> </small>.");
         });
 
-</script>
+        $("#box2").click(function(){
+        $("#twoStep").html("<p>350 Degrees</p>");
+        });
+
+        $("#box3").click(function(){
+        $("#threeStep").html("<p>Mix flour, sugar, and baking powder first.</p>");
+        });
+
+        $("#box4").click(function(){
+        $("#fourStep").html("<p>Then add eggs, butter, milk, and lemons.</p>");
+        });
+
+        $("#box5").click(function(){
+        $("#fiveStep").html("<p>Stick a tooth pick through the center of the cake. <br> If it comes out clean, the cake is done!</p>");
+        });
+
+        $("#box6").click(function(){
+        $("#sixStep").html("<p> Make sure you coat the bottom AND the sides. </p>");
+        });
+
+        $("#box7").click(function(){
+        $("#sevenStep").show();
+        });
+
+        $("#box8").click(function(){
+        $("#sevenStep").hide();
+        });
+
+        });
+
+
+        </script>
+
   </head>
 
   <body>
     <header>
-      <h1>How To: Lemon Cake</h1>
+      <h1>How To: Lemon Cake Recipe</h1>
     </header>
 
-    <main>
+    <p id="hint"> Hint: click the yellow boxes!</p>
 
       <div>
           <div id="grid">
@@ -61,8 +87,9 @@ $(document).ready(function(){
             </div>
 
             <div class="text">
-              <h3>Butter Your Pan</h3>
-              <p>Make sure to coat the bottom and the sides thuroughly.</p>
+              <h3>Step 3: Butter Your Pan</h3>
+              <div class="box" id="box6">Tip:</div>
+              <div id="sixStep"></div>
             </div>
 
             <div>
@@ -70,7 +97,7 @@ $(document).ready(function(){
             </div>
 
             <div class="text">
-              <h3>Mix Ingredients</h3>
+              <h3>Step 4: Mix Ingredients</h3>
 
               <div class="box" id="box3">1:</div>
               <div id="threeStep"></div>
@@ -85,8 +112,10 @@ $(document).ready(function(){
             </div>
 
             <div class="text">
-              <h3>Bake</h3>
-              <p>Put your cake in the oven for about 30 minutes, or until they're no longer pale and wobbly. If you're not sure whether it's ready, stick a tooth pick in the center of the cake. If it comes out clean, they're done!</p>
+              <h3>Step 5: Bake</h3>
+              <p>Put your cake in the oven for about 30 minutes, <br> or until they're no longer pale and wobbly. </p>
+              <div class="bigbox" id="box5"> Not sure if it's done? </div>
+              <div id="fiveStep"></div>
             </div>
 
             <div>
@@ -94,19 +123,20 @@ $(document).ready(function(){
             </div>
 
             <div class="text">
-              <h3>Enjoy!</h3>
-              <p>Best served with a fresh cup of coffee!</p>
+              <h3>Step 6: Enjoy!</h3>
+                <div class="lastbox" id="box7">Reveal the secret tip</div>
+                <br>
+                <div class="lastbox" id="box8">Hide the secret tip</div>
+                <div id="sevenStep"><p>This cake goes great with a fresh cup of coffee!</p></div>
             </div>
+
 
             <div>
               <img src="images/cake2.jpg" class="images">
             </div>
-
       </div>
+    </div>
 
-
-     </main>
-    <footer></footer>
   </body>
 
 
