@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-
+<!DOCTYPE HTML>
 <html>
         <head>
             <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+            <link rel="stylesheet" href="index.css">
 
             <!-- jQuery -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
@@ -13,7 +13,16 @@
         </head>
         <body>
 
-              <h1>gallery made with nanogallery2</h1>
+              <h1>Chicago</h1>
+
+              <p>Cities like New York and Las Vegas used to attract the most tourism in the US,
+                but over the past few years, Chicago has become an increasingly
+                popular travel destination. The Windy City has lots to offer- amazing architecture,
+                a plethora of great restaurants, historical landmarks, and a beautiful waterfront to
+                name a few. Check out our gallery if you want to see some of the best
+                spots in Chicago. To find out more about these places, use the links under the gallery.
+
+
 
               <!-- ### position of the gallery ### -->
               <div id="nanogallery2">gallery_made_with_nanogallery2</div>
@@ -23,19 +32,63 @@
 
                     jQuery("#nanogallery2").nanogallery2( {
                         <!-- ### gallery settings ### -->
-                        thumbnailHeight:  150,
-                        thumbnailWidth:   150,
-                        itemsBaseURL:     'http://nanogallery2.nanostudio.org/samples/',
+                        thumbnailHeight:  300,
+                        thumbnailWidth:   '600',
+                        itemsBaseURL:     '',
+                        thumbnailAlignment: 'center',
+                        thumbnailLabel:     { position: 'OnBottom', hideIcons: true },
 
                         <!-- ### gallery content ### -->
                         items: [
-                            { src: 'berlin1.jpg', srct: 'berlin1_t.jpg', title: 'Berlin 1' },
-                            { src: 'berlin2.jpg', srct: 'berlin2_t.jpg', title: 'Berlin 2' },
-                            { src: 'berlin3.jpg', srct: 'berlin3_t.jpg', title: 'Berlin 3' }
+                            { src: 'images/pizza.jpg', srct: 'images/pizza.jpg', title: 'Giordanos Deep Dish Pizza', description: 'text' },
+                            { src: 'images/bean.jpg', srct: 'images/bean.jpg', title: 'The Cloud Gate', description: 'text' },
+                            { src: 'images/river.jpg', srct: 'images/river.jpg', title: 'Chicago river', description: 'text' },
+                            { src: 'images/fireworks.jpg', srct: 'images/fireworks.jpg', title: 'Fireworks at Navy Pier', description: 'text' },
+                            { src: 'images/fountain.jpg', srct: 'images/fountain.jpg', title: 'Buckingham Fountain', description: 'text' },
+                            { src: 'images/sky.jpg', srct: 'images/sky.jpg', title: 'The Sky Deck', description: 'text' },
+                            { src: 'images/theater.jpg', srct: 'images/theater.jpg', title: 'Chicago Theater', description: 'text' },
+                            { src: 'images/park.jpg', srct: 'images/park.jpg', title: 'Maggie Daly Park', description: 'text' },
                           ]
                       });
                   });
               </script>
+
+              <div>
+                  <div id="grid">
+
+                    <div>
+                      <nav>
+                        <ul>
+                        <li><a href="https://giordanos.com/"> Giordano's Deep Dish Pizza </a></li>
+                        <li><a href="https://www.chicagoriver.org/">The Chicago River</a></li>
+                        <li><a href="https://www.choosechicago.com/things-to-do/parks-and-outdoors/grant-park/buckingham-fountain/">Buckingham Fountain</a></li>
+                        <li><a href="https://www.chicago-theater.com/">The Chicago Theater</a></li>
+                      </ul>
+                      </nav>
+                    </div>
+
+                    <div>
+                      <nav>
+                        <ul>
+                        <li><a href="http://millenniumparkfoundation.org/places/cloud-gate/"> The Cloud Gate</a> </li>
+                        <li><a href="https://navypier.org/explore/fireworks/">Fireworks at Navy Pier</a></li>
+                        <li><a href="http://theskydeck.com/">The Sky Deck</a></li>
+                        <li><a href="http://maggiedaleypark.com/">Maggie Daley Park</a></li>
+                      </ul>
+                      </nav>
+                    </div>
+                    </div>
+              </div>
+
+
+
+
+
+
+
+
+
+
 
           </body>
       </html>
