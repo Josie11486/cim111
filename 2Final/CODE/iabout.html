@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script|Poppins:900i|Source+Code+Pro:500" rel="stylesheet">
+<meta name="author" content="Josephine Argento, Josei Argento, jos">
+<meta name="keywords" content="lifestyle, college, Miami, Chicago, beauty, culture, memes">
+<meta name="description" content=".jos lifetsyle blog.">
+
+</head>
+
+<style>
+
+/* font-family: 'Source Code Pro', monospace;
+font-family: 'Poppins', sans-serif;
+'Petit Formal Script', cursive; */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    color: #333;
+    padding: 20px;
+    background: #f1f1f1;
+    font-family: source code pro;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    background-image: url("clouds2.jpg");
+    background-size: cover;
+    color: white;
+    font-family: Source Code Pro;
+}
+
+
+/* Create two unequal columns that float next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* postimage */
+.postimage {
+    width: 100%;
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Poppins;
+
+}
+
+.topnav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+}
+
+.headshot{
+  width: 100%;
+}
+
+.paragraph1{
+  font-family: Source Code Pro;
+}
+
+.paragraph2{
+  font-family: Petit Formal Script, cursive;
+  font-size: 14px;
+}
+
+.paragraph3{
+  font-family: Poppins;
+}
+
+
+</style>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <h2>.jos</h2>
+</div>
+
+<!-- ICON BAR -->
+<!-- Top navigation -->
+<div class="topnav">
+  <!-- Left-aligned links (default) -->
+  <a href="index.html">HOME</a>
+  <a href="ibeauty.html">BEAUTY</a>
+  <a href="iculture.html">CULTURE</a>
+  <a href="icollege.html">COLLEGE</a>
+  <a href="imemes.html">MEME ARCHIVE</a>
+  <a href="iabout.html">ABOUT ME</a>
+</div>
+
+
+<!-- BLOG POST 1 -->
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 class="paragraph3">WORK IN PROGRESS: ABOUT ME</h2>
+      <img src="progress.jpg" class = "postimage">
+      <h5 class="paragraph1">Dec 7, 2017</h5>
+      <p class="paragraph1">
+No, that photo is not an accident.
+<br><br>
+I put that picture there as
+a placeholder while I was working on my post, and then I realized how perfect it is.
+ I have never believed in the idea of “finding yourself” because we are always a work
+ in progress. If you had it all figured out, there would be nothing left to do.
+<br><br>
+Plus, I’m only 20 years old, so I have a lot ahead of me.
+<br><br>
+Right now I am a sophomore, soon to be junior, at University of Miami. I am majoring
+in communications and minoring in entrepreneurship. My dream is to have my own business
+ and be a SHE.E.O., but this was a pretty recent realization for me, and I don’t know
+ exactly where I am going with it yet. I am interested in a lot of different things,
+ which is one of the reasons I wanted to start a blog. Here I am free to write about
+  whatever interests me, and channel my random thoughts and research projects into
+  something productive. Hopefully, this will help point me in the right direction.
+<br><br>
+Want more? Follow me on Twitter & Insagram @blog.jos.
+<br></p>
+    </div>
+  </div>
+
+
+  <!-- ABOUT ME -->
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 class="paragraph3">ABOUT ME:</h2>
+      <img src="me2.png" class="headshot">
+      <p class="paragraph1">I've got my head in the clouds... {read more}</p>
+    </div>
+
+    <!-- /* Daily Meme */ -->
+    <div class="card">
+      <h2 class="paragraph3">DAILY MEME:</h2>
+      <img src="meme11.png" class="headshot">
+    </div>
+
+    <!-- /* Contact Me */ -->
+    <div class="card">
+      <h2 class="paragraph3">CONTACT ME:</h2>
+      <p>Email: Josie11486@yahoo.com<br><br>Instagram & Twitter: @blog.jos</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p class=paragraph2>Daily Quote:  "A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty."  -  Winston Churchill</p>
+</div>
+
+</body>
+</html>
